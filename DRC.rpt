@@ -1,0 +1,624 @@
+** Drc report for controlador de vuelo.kicad_pcb **
+** Created on 2026-08-05T21:12:23 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 155 DRC violations **
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 3.94 mils; real 0.12 mils)
+    Rule: restricciones de configuración de placa; error
+    @(8931.50 mils, 4766.93 mils): PTH pad [<no net>] of USB1
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 3.94 mils; real 0.12 mils)
+    Rule: restricciones de configuración de placa; error
+    @(9159.06 mils, 4766.93 mils): PTH pad [<no net>] of USB1
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 3.94 mils; real 0.17 mils)
+    Rule: restricciones de configuración de placa; error
+    @(9220.47 mils, 2467.72 mils): PTH pad [<no net>] of Card1
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 3.94 mils; real 0.17 mils)
+    Rule: restricciones de configuración de placa; error
+    @(8905.51 mils, 2467.72 mils): PTH pad [<no net>] of Card1
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9146.46 mils, 3070.87 mils): Pad 2 [+3.3V] of R8 on F.Cu
+    @(9121.26 mils, 3070.87 mils): Pad 1 [/BQ_PG] of R8 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8704.13 mils, 4153.54 mils): Pad 1 [GND] of R22 on F.Cu
+    @(8729.33 mils, 4153.54 mils): Pad 2 [/BOOT] of R22 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9012.99 mils, 4340.55 mils): Pad 1 [+3.3V] of C22 on F.Cu
+    @(9038.19 mils, 4340.55 mils): Pad 2 [GND] of C22 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8438.39 mils, 4832.68 mils): Pad 1 [Net-(U5-EN)] of R12 on F.Cu
+    @(8463.58 mils, 4832.68 mils): Pad 2 [VSYS] of R12 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8786.61 mils, 3779.53 mils): Pad 1 [/HSE_OUT] of C34 on F.Cu
+    @(8811.81 mils, 3779.53 mils): Pad 2 [GND] of C34 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9114.17 mils, 2973.43 mils): Pad 1 [/SD_CLK] of R21 on F.Cu
+    @(9114.17 mils, 2998.62 mils): Pad 2 [+3.3V] of R21 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8483.07 mils, 3068.11 mils): Pad 1 [+3.3V] of C19 on F.Cu
+    @(8483.07 mils, 3093.31 mils): Pad 2 [GND] of C19 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9242.13 mils, 2973.43 mils): Pad 1 [/SD_DAT1] of R17 on F.Cu
+    @(9242.13 mils, 2998.62 mils): Pad 2 [+3.3V] of R17 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9025.59 mils, 2974.41 mils): Pad 1 [/SD_CMD] of R20 on F.Cu
+    @(9025.59 mils, 2999.61 mils): Pad 2 [+3.3V] of R20 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8821.65 mils, 3641.73 mils): Pad 1 [/LSE_IN] of C35 on F.Cu
+    @(8796.46 mils, 3641.73 mils): Pad 2 [GND] of C35 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8559.06 mils, 2982.28 mils): Pad 1 [+3.3V] of C20 on F.Cu
+    @(8584.25 mils, 2982.28 mils): Pad 2 [GND] of C20 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9610.63 mils, 4192.91 mils): Pad 1 [+3.3V] of C25 on F.Cu
+    @(9635.83 mils, 4192.91 mils): Pad 2 [GND] of C25 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8969.29 mils, 4606.30 mils): Pad 1 [Net-(USB1-CC1)] of R1 on F.Cu
+    @(8944.09 mils, 4606.30 mils): Pad 2 [GND] of R1 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8369.49 mils, 4803.15 mils): Pad 1 [+5V] of R13 on F.Cu
+    @(8394.69 mils, 4803.15 mils): Pad 2 [Net-(U5-PG)] of R13 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8379.33 mils, 3562.99 mils): Pad 1 [/I2C_SCL] of R10 on F.Cu
+    @(8404.53 mils, 3562.99 mils): Pad 2 [+3.3V] of R10 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8379.33 mils, 3631.89 mils): Pad 1 [/BQ_INT] of R11 on F.Cu
+    @(8404.53 mils, 3631.89 mils): Pad 2 [+3.3V] of R11 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8546.06 mils, 3769.69 mils): Pad 1 [/LSE_OUT] of C36 on F.Cu
+    @(8520.87 mils, 3769.69 mils): Pad 2 [GND] of C36 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8599.61 mils, 3937.01 mils): Pad 1 [/HSE_IN] of C33 on F.Cu
+    @(8624.80 mils, 3937.01 mils): Pad 2 [GND] of C33 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9115.16 mils, 4655.91 mils): Pad 1 [Net-(USB1-CC2)] of R2 on F.Cu
+    @(9140.35 mils, 4655.91 mils): Pad 2 [GND] of R2 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9500.79 mils, 3287.40 mils): Pad 1 [Net-(U6-CB)] of C15 on F.Cu
+    @(9475.59 mils, 3287.40 mils): Pad 2 [Net-(U6-SW)] of C15 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8537.80 mils, 4832.68 mils): Pad 1 [Net-(U5-Vaux)] of C14 on F.Cu
+    @(8562.99 mils, 4832.68 mils): Pad 2 [GND] of C14 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8976.38 mils, 2973.43 mils): Pad 1 [/SD_DAT3] of R19 on F.Cu
+    @(8976.38 mils, 2998.62 mils): Pad 2 [+3.3V] of R19 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8707.87 mils, 3287.40 mils): Pad 1 [/I2C_SDA] of R9 on F.Cu
+    @(8733.07 mils, 3287.40 mils): Pad 2 [+3.3V] of R9 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9012.99 mils, 4301.18 mils): Pad 1 [+3.3V] of C21 on F.Cu
+    @(9038.19 mils, 4301.18 mils): Pad 2 [GND] of C21 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9610.63 mils, 4389.76 mils): Pad 1 [+3.3V] of C23 on F.Cu
+    @(9635.83 mils, 4389.76 mils): Pad 2 [GND] of C23 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8373.23 mils, 3700.79 mils): Pad 1 [GND] of R5 on F.Cu
+    @(8398.43 mils, 3700.79 mils): Pad 2 [Net-(U1-TS)] of R5 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.13 mils)
+    Local override; error
+    @(8931.50 mils, 4766.93 mils): PTH pad [<no net>] of USB1
+    @(8919.29 mils, 4724.41 mils): Pad A1B12 [GND] of USB1 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9610.63 mils, 4124.02 mils): Pad 1 [+3.3V] of C24 on F.Cu
+    @(9635.83 mils, 4124.02 mils): Pad 2 [GND] of C24 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.13 mils)
+    Local override; error
+    @(9159.06 mils, 4766.93 mils): PTH pad [<no net>] of USB1
+    @(9171.26 mils, 4724.41 mils): Pad B1A12 [GND] of USB1 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9216.93 mils, 3149.61 mils): Pad 1 [Net-(U1-ILIM)] of R3 on F.Cu
+    @(9242.13 mils, 3149.61 mils): Pad 2 [GND] of R3 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8937.01 mils, 2973.43 mils): Pad 1 [/SD_DAT2] of R18 on F.Cu
+    @(8937.01 mils, 2998.62 mils): Pad 2 [+3.3V] of R18 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9219.69 mils, 3444.88 mils): Pad 1 [/BTST] of C4 on F.Cu
+    @(9244.88 mils, 3444.88 mils): Pad 2 [Net-(U1-BTST)] of C4 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8773.03 mils, 3494.09 mils): Pad 1 [Net-(D1-A)] of R7 on F.Cu
+    @(8798.23 mils, 3494.09 mils): Pad 2 [+3.3V] of R7 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9209.84 mils, 3228.35 mils): Pad 1 [Net-(U1-TS)] of R4 on F.Cu
+    @(9235.04 mils, 3228.35 mils): Pad 2 [VREGN] of R4 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9610.63 mils, 4261.81 mils): Pad 1 [+3.3V] of C26 on F.Cu
+    @(9635.83 mils, 4261.81 mils): Pad 2 [GND] of C26 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(8370.47 mils, 3740.16 mils): Pad 1 [GND] of R6 on F.Cu
+    @(8395.67 mils, 3740.16 mils): Pad 2 [Net-(U1-TS)] of R6 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9202.76 mils, 2969.69 mils): Pad 1 [/SD_DAT0] of R16 on F.Cu
+    @(9202.76 mils, 2994.88 mils): Pad 2 [+3.3V] of R16 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9412.80 mils, 4409.45 mils): Pad 1 [GND] of C37 on F.Cu
+    @(9437.99 mils, 4409.45 mils): Pad 2 [/RESET] of C37 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9225.79 mils, 4094.49 mils): Pad 1 [Net-(U3-VCAP_1)] of C32 on F.Cu
+    @(9250.98 mils, 4094.49 mils): Pad 2 [GND] of C32 on F.Cu
+[clearance]: Infracción de margen ( margen 7.87 mils; real 7.09 mils)
+    Local override; error
+    @(9610.63 mils, 4330.71 mils): Pad 1 [+3.3V] of C27 on F.Cu
+    @(9635.83 mils, 4330.71 mils): Pad 2 [GND] of C27 on F.Cu
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 2; 1 real)
+    Local override; error
+    @(7922.88 mils, 5093.47 mils): Zone 'gnd' [GND] on F.Cu and B.Cu, priority 0
+    @(9171.26 mils, 4724.41 mils): Pad B1A12 [GND] of USB1 on F.Cu
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 2; 1 real)
+    Local override; error
+    @(7922.88 mils, 5093.47 mils): Zone 'gnd' [GND] on F.Cu and B.Cu, priority 0
+    @(9311.02 mils, 3374.02 mils): Pad 2 [GND] of C16 on F.Cu
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 2; 1 real)
+    Local override; error
+    @(7922.88 mils, 5093.47 mils): Zone 'gnd' [GND] on F.Cu and B.Cu, priority 0
+    @(9635.83 mils, 4192.91 mils): Pad 2 [GND] of C25 on F.Cu
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 2; 1 real)
+    Local override; error
+    @(7922.88 mils, 5093.47 mils): Zone 'gnd' [GND] on F.Cu and B.Cu, priority 0
+    @(8373.23 mils, 3700.79 mils): Pad 1 [GND] of R5 on F.Cu
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 2; 1 real)
+    Local override; error
+    @(7922.88 mils, 5093.47 mils): Zone 'gnd' [GND] on F.Cu and B.Cu, priority 0
+    @(8916.54 mils, 3425.20 mils): Pad 2 [GND] of C1 on F.Cu
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 2; 1 real)
+    Local override; error
+    @(7922.88 mils, 5093.47 mils): Zone 'gnd' [GND] on F.Cu and B.Cu, priority 0
+    @(9635.83 mils, 4330.71 mils): Pad 2 [GND] of C27 on F.Cu
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 2; 1 real)
+    Local override; error
+    @(7922.88 mils, 5093.47 mils): Zone 'gnd' [GND] on F.Cu and B.Cu, priority 0
+    @(9140.35 mils, 4655.91 mils): Pad 2 [GND] of R2 on F.Cu
+[starved_thermal]: Conexión de alivio térmico a la zona incompleta (capa F.Cu; zona recuento mínimo de radios 2; 1 real)
+    Local override; error
+    @(7922.88 mils, 5093.47 mils): Zone 'gnd' [GND] on F.Cu and B.Cu, priority 0
+    @(9635.83 mils, 4261.81 mils): Pad 2 [GND] of C26 on F.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(8828.74 mils, 3080.71 mils): Track [/BTST] on F.Cu, length 72.05 mils
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(8818.90 mils, 3307.09 mils): Via [VBUS] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(8838.58 mils, 3411.02 mils): Track [Net-(U1-TS)] on F.Cu, length 14.17 mils
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(9724.41 mils, 2706.69 mils): Track [BAT+] on F.Cu, length 47.83 mils
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(9616.14 mils, 3632.77 mils): Track [VSYS] on B.Cu, length 178.05 mils
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(8838.58 mils, 3411.02 mils): Track [Net-(U1-TS)] on F.Cu, length 4.33 mils
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(7957.47 mils, 2264.52 mils): Rectangle on Edge.Cuts
+    @(8868.11 mils, 5013.78 mils): Segment of USB1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(7957.47 mils, 2264.52 mils): Rectangle on Edge.Cuts
+    @(9225.20 mils, 5008.27 mils): Segment of USB1 on F.Silkscreen
+[padstack]: El padstack es cuestionable (el agujero del pad PTH no deja cobre)
+    Local override; warning
+    @(8931.50 mils, 4766.93 mils): PTH pad [<no net>] of USB1
+[padstack]: El padstack es cuestionable (el agujero del pad PTH no deja cobre)
+    Local override; warning
+    @(9159.06 mils, 4766.93 mils): PTH pad [<no net>] of USB1
+[padstack]: El padstack es cuestionable (el agujero del pad PTH no deja cobre)
+    Local override; warning
+    @(9220.47 mils, 2467.72 mils): PTH pad [<no net>] of Card1
+[padstack]: El padstack es cuestionable (el agujero del pad PTH no deja cobre)
+    Local override; warning
+    @(8905.51 mils, 2467.72 mils): PTH pad [<no net>] of Card1
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(9283.46 mils, 2986.02 mils): Reference field of R17
+    @(9244.09 mils, 2982.28 mils): Reference field of R16
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8587.40 mils, 3910.63 mils): Segment of X1 on F.Silkscreen
+    @(8533.46 mils, 3811.02 mils): Reference field of C36
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8612.20 mils, 3895.67 mils): Reference field of C33
+    @(8587.40 mils, 3910.63 mils): Segment of X1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8612.20 mils, 3895.67 mils): Reference field of C33
+    @(8578.35 mils, 3854.33 mils): Segment of X1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8612.20 mils, 3895.67 mils): Reference field of C33
+    @(8747.24 mils, 3910.63 mils): Segment of X1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(9017.72 mils, 2986.02 mils): Reference field of R19
+    @(9025.59 mils, 3031.50 mils): Reference field of U1
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(9066.93 mils, 2987.01 mils): Reference field of R20
+    @(9025.59 mils, 3031.50 mils): Reference field of U1
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(9788.98 mils, 2833.46 mils): Segment of J1 on F.Silkscreen
+    @(9645.67 mils, 2827.56 mils): Reference field of C2
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(9232.28 mils, 3403.54 mils): Reference field of C4
+    @(9254.72 mils, 3404.53 mils): Reference field of C16
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(9488.19 mils, 3328.74 mils): Reference field of C15
+    @(9483.76 mils, 3338.58 mils): Reference field of U6
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8858.27 mils, 3402.36 mils): Reference field of D1
+    @(8897.64 mils, 3379.53 mils): Reference field of C1
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8620.08 mils, 3118.11 mils): Segment of U8 on F.Silkscreen
+    @(8524.41 mils, 3080.71 mils): Reference field of C19
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8524.41 mils, 3080.71 mils): Reference field of C19
+    @(8523.23 mils, 3118.11 mils): Segment of U8 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8512.60 mils, 3050.00 mils): Segment of U8 on F.Silkscreen
+    @(8524.41 mils, 3080.71 mils): Reference field of C19
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8512.60 mils, 3065.75 mils): Segment of U8 on F.Silkscreen
+    @(8524.41 mils, 3080.71 mils): Reference field of C19
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8532.28 mils, 3030.31 mils): Circle of U8 on F.Silkscreen
+    @(8524.41 mils, 3080.71 mils): Reference field of C19
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8688.98 mils, 4776.38 mils): Reference field of C13
+    @(8682.63 mils, 4763.19 mils): Segment of C10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8682.63 mils, 4654.92 mils): Segment of C8 on F.Silkscreen
+    @(8692.91 mils, 4668.11 mils): Reference field of C10
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8550.39 mils, 4791.34 mils): Reference field of C14
+    @(8450.98 mils, 4791.34 mils): Reference field of R12
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8339.94 mils, 4754.33 mils): Segment of C9 on F.Silkscreen
+    @(8382.09 mils, 4761.81 mils): Reference field of R13
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8334.20 mils, 4556.50 mils): Segment of C11 on F.Silkscreen
+    @(8345.47 mils, 4579.53 mils): Reference field of C12
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8345.47 mils, 4677.95 mils): Reference field of C9
+    @(8339.94 mils, 4655.91 mils): Segment of C12 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8382.09 mils, 4761.81 mils): Reference field of R13
+    @(8450.98 mils, 4791.34 mils): Reference field of R12
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(8484.65 mils, 4775.98 mils): Circle of U5 on F.Silkscreen
+    @(8450.98 mils, 4791.34 mils): Reference field of R12
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(9664.57 mils, 3661.42 mils): Reference field of C18
+    @(9566.93 mils, 3661.42 mils): Reference field of R14
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(9562.68 mils, 3647.24 mils): Segment of C18 on F.Silkscreen
+    @(9566.93 mils, 3661.42 mils): Reference field of R14
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(9562.68 mils, 3675.59 mils): Segment of C18 on F.Silkscreen
+    @(9566.93 mils, 3661.42 mils): Reference field of R14
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(9425.39 mils, 4368.11 mils): Reference field of C37
+    @(9431.89 mils, 4379.92 mils): Reference field of SW1
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(9025.59 mils, 4259.84 mils): Reference field of C21
+    @(9025.59 mils, 4299.21 mils): Reference field of C22
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(9356.97 mils, 4216.93 mils): Segment of C29 on F.Silkscreen
+    @(9357.28 mils, 4235.83 mils): Reference field of C28
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(9466.03 mils, 4218.11 mils): Segment of C30 on F.Silkscreen
+    @(9470.28 mils, 4235.83 mils): Reference field of C31
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8735.43 mils, 2522.83 mils): Segment of Card1 on F.Silkscreen
+    @(8720.08 mils, 2479.13 mils): Pad 12 [GND] of Card1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8612.20 mils, 3895.67 mils): Reference field of C33
+    @(8624.02 mils, 3877.95 mils): Pad 1 [/HSE_IN] of X1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9244.09 mils, 2982.28 mils): Reference field of R16
+    @(9242.13 mils, 2998.62 mils): Pad 2 [+3.3V] of R17 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9244.09 mils, 2982.28 mils): Reference field of R16
+    @(9242.13 mils, 2973.43 mils): Pad 1 [/SD_DAT1] of R17 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9025.59 mils, 3031.50 mils): Reference field of U1
+    @(9025.59 mils, 2999.61 mils): Pad 2 [+3.3V] of R20 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9674.41 mils, 2872.83 mils): Reference field of J1
+    @(9676.18 mils, 2883.86 mils): Pad 2 [GND] of C2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9017.72 mils, 2986.02 mils): Reference field of R19
+    @(9025.59 mils, 2974.41 mils): Pad 1 [/SD_CMD] of R20 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9017.72 mils, 2986.02 mils): Reference field of R19
+    @(9025.59 mils, 2999.61 mils): Pad 2 [+3.3V] of R20 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9254.72 mils, 3404.53 mils): Reference field of C16
+    @(9244.88 mils, 3444.88 mils): Pad 2 [Net-(U1-BTST)] of C4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9371.65 mils, 3720.47 mils): Reference field of C17
+    @(9330.71 mils, 3740.16 mils): Pad 41 [unconnected-(U3-PA8-Pad41)] of U3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9371.65 mils, 3720.47 mils): Reference field of C17
+    @(9330.71 mils, 3720.47 mils): Pad 42 [unconnected-(U3-PA9-Pad42)] of U3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9371.65 mils, 3720.47 mils): Reference field of C17
+    @(9330.71 mils, 3700.79 mils): Pad 43 [unconnected-(U3-PA10-Pad43)] of U3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8986.22 mils, 3162.60 mils): Reference field of L5
+    @(8996.06 mils, 3188.98 mils): Pad 17 [/BTST] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8986.22 mils, 3162.60 mils): Reference field of L5
+    @(8976.77 mils, 3188.98 mils): Pad 18 [/BTST] of U1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8858.27 mils, 3402.36 mils): Reference field of D1
+    @(8878.74 mils, 3425.20 mils): Pad 1 [VBUS] of C1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8897.64 mils, 3379.53 mils): Reference field of C1
+    @(8877.36 mils, 3356.30 mils): Pad 1 [Net-(D1-K)] of D1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8524.41 mils, 3080.71 mils): Reference field of C19
+    @(8540.94 mils, 3059.84 mils): Pad 1 [+3.3V] of U8 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8524.41 mils, 3080.71 mils): Reference field of C19
+    @(8540.94 mils, 3079.53 mils): Pad 2 [/I2C_SCL] of U8 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8688.98 mils, 4776.38 mils): Reference field of C13
+    @(8655.51 mils, 4734.25 mils): Pad 1 [+5V] of C10 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8688.98 mils, 4776.38 mils): Reference field of C13
+    @(8730.31 mils, 4734.25 mils): Pad 2 [GND] of C10 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8870.08 mils, 4713.78 mils): Circle of USB1 on F.Silkscreen
+    @(8875.20 mils, 4746.06 mils): PTH pad 13 [GND] of USB1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8868.11 mils, 4872.83 mils): Segment of USB1 on F.Silkscreen
+    @(8875.20 mils, 4911.81 mils): PTH pad 13 [GND] of USB1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8868.11 mils, 5013.78 mils): Segment of USB1 on F.Silkscreen
+    @(8875.20 mils, 4911.81 mils): PTH pad 13 [GND] of USB1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9225.20 mils, 4873.23 mils): Segment of USB1 on F.Silkscreen
+    @(9215.35 mils, 4911.81 mils): PTH pad 14 [GND] of USB1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9225.20 mils, 5008.27 mils): Segment of USB1 on F.Silkscreen
+    @(9215.35 mils, 4911.81 mils): PTH pad 14 [GND] of USB1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8692.91 mils, 4668.11 mils): Reference field of C10
+    @(8655.51 mils, 4625.98 mils): Pad 1 [VSYS] of C8 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8692.91 mils, 4668.11 mils): Reference field of C10
+    @(8730.31 mils, 4625.98 mils): Pad 2 [GND] of C8 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8572.83 mils, 3746.06 mils): Circle of X2 on F.Silkscreen
+    @(8592.52 mils, 3710.63 mils): Pad 1 [/LSE_IN] of X2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8799.21 mils, 3738.19 mils): Reference field of C34
+    @(8883.86 mils, 3740.16 mils): Pad 8 [unconnected-(U3-PC0-Pad8)] of U3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8809.06 mils, 3683.07 mils): Reference field of C35
+    @(8883.86 mils, 3661.42 mils): Pad 4 [/LSE_OUT] of U3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8809.06 mils, 3683.07 mils): Reference field of C35
+    @(8883.86 mils, 3681.10 mils): Pad 5 [/HSE_IN] of U3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8809.06 mils, 3683.07 mils): Reference field of C35
+    @(8883.86 mils, 3700.79 mils): Pad 6 [/HSE_OUT] of U3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8521.65 mils, 4685.04 mils): Reference field of L6
+    @(8535.43 mils, 4671.65 mils): Pad 9 [Net-(U5-L2)] of U5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8515.75 mils, 4514.33 mils): Reference field of U5
+    @(8474.41 mils, 4527.56 mils): Pad 2 [Net-(U5-L1)] of L6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8521.65 mils, 4685.04 mils): Reference field of L6
+    @(8515.75 mils, 4679.53 mils): Pad 10 [GND] of U5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8521.65 mils, 4685.04 mils): Reference field of L6
+    @(8496.06 mils, 4671.65 mils): Pad 11 [Net-(U5-L1)] of U5 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8345.47 mils, 4677.95 mils): Reference field of C9
+    @(8375.98 mils, 4635.83 mils): Pad 2 [GND] of C12 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8382.09 mils, 4761.81 mils): Reference field of R13
+    @(8314.96 mils, 4734.25 mils): Pad 1 [VSYS] of C9 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8382.09 mils, 4761.81 mils): Reference field of R13
+    @(8375.98 mils, 4734.25 mils): Pad 2 [GND] of C9 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8345.47 mils, 4579.53 mils): Reference field of C12
+    @(8381.89 mils, 4527.56 mils): Pad 2 [GND] of C11 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8345.47 mils, 4579.53 mils): Reference field of C12
+    @(8307.09 mils, 4527.56 mils): Pad 1 [+5V] of C11 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8515.75 mils, 4514.33 mils): Reference field of U5
+    @(8568.90 mils, 4527.56 mils): Pad 1 [Net-(U5-L2)] of L6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8450.98 mils, 4791.34 mils): Reference field of R12
+    @(8394.69 mils, 4803.15 mils): Pad 2 [Net-(U5-PG)] of R13 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8345.47 mils, 4677.95 mils): Reference field of C9
+    @(8314.96 mils, 4635.83 mils): Pad 1 [+5V] of C12 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9623.23 mils, 4151.57 mils): Reference field of C25
+    @(9610.63 mils, 4124.02 mils): Pad 1 [+3.3V] of C24 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9623.23 mils, 4151.57 mils): Reference field of C25
+    @(9635.83 mils, 4124.02 mils): Pad 2 [GND] of C24 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9566.93 mils, 3661.42 mils): Reference field of R14
+    @(9585.83 mils, 3661.42 mils): Pad 2 [GND] of C18 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9566.93 mils, 3661.42 mils): Reference field of R14
+    @(9548.03 mils, 3661.42 mils): Pad 1 [+3.3V] of C18 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9025.59 mils, 4299.21 mils): Reference field of C22
+    @(9038.19 mils, 4301.18 mils): Pad 2 [GND] of C21 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9025.59 mils, 4299.21 mils): Reference field of C22
+    @(9012.99 mils, 4301.18 mils): Pad 1 [+3.3V] of C21 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9357.28 mils, 4235.83 mils): Reference field of C28
+    @(9342.32 mils, 4202.76 mils): Pad 1 [+3.3V] of C29 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9357.28 mils, 4235.83 mils): Reference field of C28
+    @(9380.12 mils, 4202.76 mils): Pad 2 [GND] of C29 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9470.28 mils, 4235.83 mils): Reference field of C31
+    @(9451.38 mils, 4203.94 mils): Pad 1 [+3.3V] of C30 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9470.28 mils, 4235.83 mils): Reference field of C31
+    @(9489.17 mils, 4203.94 mils): Pad 2 [GND] of C30 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9623.23 mils, 4289.37 mils): Reference field of C27
+    @(9635.83 mils, 4261.81 mils): Pad 2 [GND] of C26 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9623.23 mils, 4348.43 mils): Reference field of C23
+    @(9610.63 mils, 4330.71 mils): Pad 1 [+3.3V] of C27 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9623.23 mils, 4348.43 mils): Reference field of C23
+    @(9635.83 mils, 4330.71 mils): Pad 2 [GND] of C27 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9623.23 mils, 4289.37 mils): Reference field of C27
+    @(9610.63 mils, 4261.81 mils): Pad 1 [+3.3V] of C26 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9623.23 mils, 4220.47 mils): Reference field of C26
+    @(9610.63 mils, 4192.91 mils): Pad 1 [+3.3V] of C25 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(9623.23 mils, 4220.47 mils): Reference field of C26
+    @(9635.83 mils, 4192.91 mils): Pad 2 [GND] of C25 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
