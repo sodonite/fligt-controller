@@ -3,10 +3,13 @@ This is a custom flight controller engineered specifically for rocket stabilizat
 
 Designed in KiCad, the entire project is completely open source.
 
-PCB:<img width="371" height="488" alt="image" src="https://github.com/user-attachments/assets/9676677e-f571-4e0e-9c3a-19242fe02fea" />
-3D Image:<img width="452" height="581" alt="image" src="https://github.com/user-attachments/assets/0807d444-c123-4ac9-8128-19c4b004c9cc" />
+PCB:
+<img width="371" height="488" alt="image" src="https://github.com/user-attachments/assets/9676677e-f571-4e0e-9c3a-19242fe02fea" />
+3D Image:
+<img width="452" height="581" alt="image" src="https://github.com/user-attachments/assets/0807d444-c123-4ac9-8128-19c4b004c9cc" />
 <img width="466" height="616" alt="image" src="https://github.com/user-attachments/assets/f4064c92-67aa-47a0-b086-8fb80246945c" />
-Schematic:<img width="889" height="561" alt="image" src="https://github.com/user-attachments/assets/82fcc713-342e-4948-aab7-0edb141dc195" />
+Schematic:
+<img width="889" height="561" alt="image" src="https://github.com/user-attachments/assets/82fcc713-342e-4948-aab7-0edb141dc195" />
 <img width="859" height="493" alt="image" src="https://github.com/user-attachments/assets/ff77705b-2ccb-49a4-87ce-129ed83273d2" />
 Technical Specifications
 Brain: STM32F722RET6 microcontroller.
